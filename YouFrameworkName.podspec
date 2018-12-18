@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'YouFrameworkName/Classes/**/*'
   s.resources = 'YouFrameworkName/Resources/**/*'
-  # s.resource_bundles = {
-  #   'YouFrameworkName' => ['YouFrameworkName/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'YouFrameworkName' => ['YouFrameworkName/Assets/**/*']
+   }
   
   s.prefix_header_contents = '#import "Masonry.h"'
 

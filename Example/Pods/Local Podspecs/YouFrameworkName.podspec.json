@@ -19,6 +19,11 @@
   },
   "source_files": "YouFrameworkName/Classes/**/*",
   "resources": "YouFrameworkName/Resources/**/*",
+  "resource_bundles": {
+    "YouFrameworkName": [
+      "YouFrameworkName/Assets/**/*"
+    ]
+  },
   "prefix_header_contents": "#import \"Masonry.h\"",
   "dependencies": {
     "Masonry": [
