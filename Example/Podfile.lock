@@ -1,0 +1,16 @@
+PODS:
+  - YouFrameworkName (0.1.0)
+
+DEPENDENCIES:
+  - YouFrameworkName (from `../`)
+
+EXTERNAL SOURCES:
+  YouFrameworkName:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YouFrameworkName: 2e230533100832ddbf8d4e27efb21c3deca785f7
+
+PODFILE CHECKSUM: 19c203636bc4cc414f941f9ef79408e8cf2191ef
+
+COCOAPODS: 1.5.0
