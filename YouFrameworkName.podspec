@@ -25,18 +25,19 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mlc' => '1228225993@qq.com' }
-  s.source           = { :path => '.' }
+  s.source           = { :git => '/Users/menglingchao/Desktop/MyDemo/YouFrameworkName' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'YouFrameworkName/Classes/**/*'
-  
+  s.resources = 'YouFrameworkName/Resources/**/*'
   # s.resource_bundles = {
   #   'YouFrameworkName' => ['YouFrameworkName/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Masonry', '1.1.0'
+  
 end

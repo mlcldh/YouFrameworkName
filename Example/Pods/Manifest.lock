@@ -1,15 +1,22 @@
 PODS:
-  - YouFrameworkName (0.1.0)
+  - Masonry (1.1.0)
+  - YouFrameworkName (0.1.0):
+    - Masonry (= 1.1.0)
 
 DEPENDENCIES:
   - YouFrameworkName (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
 
 EXTERNAL SOURCES:
   YouFrameworkName:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YouFrameworkName: 2e230533100832ddbf8d4e27efb21c3deca785f7
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  YouFrameworkName: cfddafec94b88513b41ee89c9a51e29d440ac50d
 
 PODFILE CHECKSUM: 19c203636bc4cc414f941f9ef79408e8cf2191ef
 

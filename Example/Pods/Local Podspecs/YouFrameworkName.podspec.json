@@ -1,22 +1,27 @@
 {
   "name": "YouFrameworkName",
   "version": "0.1.0",
-  "summary": "A short description of YouFrameworkName.",
+  "summary": "This is a short description of YouFrameworkName.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/孟令超/YouFrameworkName",
+  "homepage": "https://github.com/mlcldh/LCModalHelper",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "孟令超": "1228225993@qq.com"
+    "mlc": "1228225993@qq.com"
   },
   "source": {
-    "git": "https://github.com/孟令超/YouFrameworkName.git",
-    "tag": "0.1.0"
+    "git": "/Users/menglingchao/Desktop/MyDemo/YouFrameworkName"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YouFrameworkName/Classes/**/*"
+  "source_files": "YouFrameworkName/Classes/**/*",
+  "resources": "YouFrameworkName/Resources/**/*",
+  "dependencies": {
+    "Masonry": [
+      "1.1.0"
+    ]
+  }
 }
