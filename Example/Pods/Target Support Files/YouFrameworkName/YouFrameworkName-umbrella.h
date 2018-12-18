@@ -11,6 +11,7 @@
 #endif
 
 #import "LCHello.h"
+#import "LCView.h"
 
 FOUNDATION_EXPORT double YouFrameworkNameVersionNumber;
 FOUNDATION_EXPORT const unsigned char YouFrameworkNameVersionString[];
