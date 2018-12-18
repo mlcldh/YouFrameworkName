@@ -12,5 +12,8 @@
 - (void)sayHello {
     NSLog(@"Hello,I am james");
 }
+- (void)sayMyHeight {
+    NSLog(@"My height is 2.03 meters");
+}
 
 @end

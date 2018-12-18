@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/mlcldh/YouFrameworkName'
+  s.homepage         = 'https://github.com/mlcldh/LCModalHelper'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '孟令超' => '1228225993@qq.com' }
-  s.source           = { :path => '.}' }
+  s.author           = { 'mlc' => '1228225993@qq.com' }
+  s.source           = { :path => '.' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
