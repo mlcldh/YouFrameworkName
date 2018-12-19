@@ -25,7 +25,7 @@
         self.backgroundColor = [UIColor yellowColor];
         [self userImageView];
         [self momentImageView];
-        [self wxImageView];
+//        [self wxImageView];
         [self qqImageView];
         [self titleLabel];
     }
@@ -57,17 +57,18 @@
         _wxImageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"lc_root_tab_moment_pressed"]];
         [self addSubview:_wxImageView];
         [_wxImageView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.right.top.equalTo(self);
+            make.center.equalTo(self);
         }];
     }
     return _wxImageView;
 }
 - (UIImageView *)qqImageView {
     if (!_qqImageView) {
-        NSString *path = [[NSBundle mainBundle]pathForResource:@"YouFrameworkName" ofType:@"bundle"];
-        path = [path stringByAppendingString:@"/lc_group_invite_qq@2x.png"];
-        UIImage *image = [UIImage imageWithContentsOfFile:path];
-        _qqImageView = [[UIImageView alloc]initWithImage:image];
+        _qqImageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"YouFrameworkName.bundle/lc_group_invite_qq"]];
+//        NSString *path = [[NSBundle mainBundle]pathForResource:@"YouFrameworkName" ofType:@"bundle"];
+//        path = [path stringByAppendingString:@"/lc_group_invite_qq@2x.png"];
+//        UIImage *image = [UIImage imageWithContentsOfFile:path];
+//        _qqImageView = [[UIImageView alloc]initWithImage:image];
         [self addSubview:_qqImageView];
         [_qqImageView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.center.equalTo(self);
